@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background-color: #14213D   ;
+    font-family: 'Righteous', cursive;
+    color: #E5E5E5;
+}
+
+article{
+    width: 80%;
+    margin: auto;
+}
+article div{
+    text-align: center;   
+}
+article img{
+    max-width: 600px;
+}
+article h2{
+    text-align: center;
+}
+@media only screen and (max-width: 700px){
+    article{
+        text-align: center;
 nav {
     background-color: #14213D;
     padding: 30px;
